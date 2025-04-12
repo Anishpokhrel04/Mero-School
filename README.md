@@ -46,8 +46,8 @@ mero-school/ ├── public/ ├── src/ │ ├── components/ │ │ 
 git clone https://github.com/yourusername/mero-school.git
 cd mero-school
 
+### 2. Install Dependencies
 
-### 2. Install dependencies
 bash
 Copy
 Edit
