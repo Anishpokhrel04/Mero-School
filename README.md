@@ -1,12 +1,64 @@
-# React + Vite
+# 📚 Mero School
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Mero School** is a modern, user-friendly school management system built with React and Ant Design. It empowers administrators to manage students, teachers, and academic resources efficiently through a clean interface and reusable components.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## ✨ Features
 
-## Expanding the ESLint configuration
+- 🔐 Role-Based Access (Admin, Teacher, Student)
+- 🧑‍🎓 Student Management (Add, Edit, Delete, View)
+- 👨‍🏫 Teacher Management Module
+- 🏫 Class & Subject Assignment
+- 📊 Interactive Dashboard
+- 🗂️ Dynamic Table Views with Sorting & Filtering
+- 💬 Reusable Modal Components
+- 🌗 Light/Dark Mode Support
+- ♻️ Global Functions for Reusability
+- 🎨 Built with Tailwind + Ant Design for sleek UI
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 📦 Tech Stack
+
+| Tech        | Description                         |
+|-------------|-------------------------------------|
+| React       | Frontend framework                  |
+| Ant Design  | Component library                   |
+| Tailwind CSS| Utility-first styling               |
+| JavaScript  | Programming language                |
+| Ant Icons   | Icons used in the UI                |
+
+---
+
+## 📁 Project Structure
+
+mero-school/ ├── public/ ├── src/ │ ├── components/ │ │ ├── forms/ │ │ ├── buttons/ │ │ └── shared/ │ ├── pages/ │ │ ├── Student.jsx │ │ └── Teacher.jsx │ ├── utils/ │ │ └── GlobalFunctions.js │ ├── App.jsx │ └── main.jsx ├── tailwind.config.js ├── package.json └── README.md
+
+
+---
+
+## 🚀 Getting Started
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/yourusername/mero-school.git
+cd mero-school
+
+
+### 2. Install dependencies
+bash
+Copy
+Edit
+npm install
+# or
+yarn install
+3. Run the development server
+bash
+Copy
+Edit
+npm run dev
+# or
+yarn dev
+App will be available at: http://localhost:5173
