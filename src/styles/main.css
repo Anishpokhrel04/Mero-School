@@ -1,0 +1,50 @@
+:root {
+  --color-primary: #16a34a; /* Primary Green */
+  --color-primary-hover: #15803d; /* Darker Green on Hover */
+  --color-surface: #ffffff; /* White for Backgrounds and Containers */
+  --color-background: #ecfdf5; /* Light Green Background */
+  --color-text-primary: #064e3b; /* Dark Text for Primary Content */
+  --color-border: #a7f3d0; /* Light Green Border */
+}
+
+/* Backgrounds */
+.bg-background {
+  background-color: var(--color-background);
+}
+.bg-surface {
+  background-color: var(--color-surface);
+}
+
+/* Text */
+.text-primary {
+  color: var(--color-text-primary);
+}
+
+/* Inputs */
+.input-custom {
+  padding: 0.5rem 1rem;
+  border: 1px solid var(--color-border);
+  border-radius: 0.375rem;
+  outline: none;
+  transition: border 0.2s ease;
+}
+.input-custom:focus {
+  border-color: var(--color-primary);
+}
+
+/* Button styles */
+.btn {
+  padding: 0.5rem 1rem;
+  border-radius: 0.375rem;
+  font-weight: 500;
+  transition: background-color 0.2s ease;
+}
+
+.btn-primary {
+  background-color: var(--color-primary);
+  color: #fff;
+  border-color: none;
+}
+.btn-primary:hover {
+  background-color: var(--color-primary-hover);
+}
